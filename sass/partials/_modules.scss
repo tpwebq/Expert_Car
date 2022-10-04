@@ -1,0 +1,36 @@
+@include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
+
+.bg{
+    &-blue{
+        background-color: $color__blue--dark!important;
+    }
+}
+.border{
+    &-blue{
+        border-color: $color__blue--dark!important;
+    }
+}
+.comingsoon{
+    &-s1{
+        background-position-x: left!important;
+    }
+}
+.error{
+    &-s1{
+        background-position-x: right!important;
+    }
+}
+.privacy{
+    &-s1{
+        background-position-x: center!important;
+    }
+}
+
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+    &-blue{
+        color: $color__blue--dark!important;
+    }
+}
